@@ -1,0 +1,13 @@
+@import '../node_modules/normalize.css/normalize.css';
+@import './variables.scss';
+@import '../scss/fonts.scss';
+@import '../public/blocks/background/background.scss';
+@import '../public/blocks/header/header.scss';
+@import '../public/blocks/cards/cards.scss';
+@import '../public/blocks/card/card.scss';
+@import '../public/blocks/card/__text/card__text.scss';
+@import '../public/blocks/card/__product-name/card__product-name.scss';
+@import '../public/blocks/card/__product-ingred/card__product-ingred.scss';
+@import '../public/blocks/card/__product-amount/card__product-amount.scss';
+@import '../public/blocks/card/__product-stock/card__product-stock.scss';
+@import '../public/blocks/card/__circle/card__circle.scss';

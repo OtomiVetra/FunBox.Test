@@ -1,0 +1,29 @@
+{
+  "name": "funbox.test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtomiVetra/FunBox.Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OtomiVetra/FunBox.Test/issues"
+  },
+  "homepage": "https://github.com/OtomiVetra/FunBox.Test#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.52.3"
+  }
+}
