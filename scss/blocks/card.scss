@@ -1,0 +1,33 @@
+@import './card/__text/card__text.scss';
+@import './card/__product-name/card__product-name.scss';
+@import './card/__product-ingred/card__product-ingred.scss';
+@import './card/__product-amount/card__product-amount.scss';
+@import './card/__product-stock/card__product-stock.scss';
+@import './card/__circle/card__circle.scss';
+@import './card/__bg/card__bg.scss';
+@import './card/__content/card__content.scss';
+
+.card {
+  position: relative;
+  width: 320px;
+  background-image: url(/image/Photoshop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 80px;
+  cursor: pointer;
+  &_active {
+    background-image: url(/image/active.png);
+    .card__circle {
+      background-color: #d91667;
+    }
+  }
+  &:last-of-type {
+    margin-right: 0px;
+  }
+  &:hover {
+    background-image: url(/image/default-hover.png);
+    .card__circle {
+      background-color: #2ea8e6;
+    }
+  }
+}
